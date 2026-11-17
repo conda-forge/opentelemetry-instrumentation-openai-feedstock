@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-openai
-  version: "0.63.0"
+  version: "0.63.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_openai-${{ version }}.tar.gz
-  sha256: f63b7977fa4147548e70a2251c05ddb50a1b9a38a13626d0ba2b631e00083fe0
+  sha256: ea027b12957a7b6cdc4fbf8b0940aafe882487401bf55319137329451cdd25bf
 
 build:
   number: 0
